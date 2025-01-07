@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #afafaf;
+    font-weight: 900;
+    font-size: 96px;
+    font-style: oblique;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+.bg {
+    height: 500px;
+    width: 100%;
+    background-color: #555;
+    background-image: url("https://images.unsplash.com/photo-1728650388218-c10708026ad3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
