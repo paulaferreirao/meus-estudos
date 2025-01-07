@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos semânticos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            Barra de navegação.
+        </nav>
+    </header>
+
+    <main>
+        Conteúdo principal.
+
+        <!-- por boas práticas, o id é um identificador único, ou seja, não se pode utilizar outra vez no código. -->
+        <section id="about-me">
+            Sobre mim
+            
+            <figure>
+                <img src="https://avatars.githubusercontent.com/u/82598189?v=4" alt="Paula Ferreira" width="200">
+                <figcaption>Foto de perfil do Github de Paula Ferreira</figcaption>
+            </figure>
+        </section>
+
+        <section id="porfolio">
+            Portifólio
+        </section>
+
+        <section id="blog">
+            <article>
+                <header>Imagem de capa do post</header>
+
+                <main>Título</main>
+
+                <footer>Autor e data de publicação</footer>
+            </article>
+
+            <article>
+                Post 2
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <!-- também pode estar no main - conteúdo principal. -->
+         Conteúdo da barra lateral.
+    </aside>
+
+    <footer>
+        Desenvolvidor por Paula Ferreira.
+    </footer>
+</body>
+</html>

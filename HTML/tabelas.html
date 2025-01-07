@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+
+        <section id="student">
+            <h2>Tabela de alunos</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Carol Danvers</td>
+                        <td>caroldanvers@gmail.com</td>
+                        <td>001</td>
+                    </tr>
+
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>peterparker@gmail.com</td>
+                        <td>002</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tonystark@gmail.com</td>
+                        <td>003</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section>
+            <h2>Tabela de controle financeiro</h2>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/06/2024</td>
+                        <td colspan="2">Despesa</td>
+                        <!-- <td>Almoço</td> -->
+                        <td>R$45,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$3768,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
